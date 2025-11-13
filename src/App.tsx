@@ -1,7 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
 import './App.css'
-import { calculateNote } from './algorithms/calculateNote';
 import AboutMethod from './components/aboutMethod';
 
 const audioCtx = new (window.AudioContext)();
